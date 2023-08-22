@@ -65,7 +65,6 @@ long int convert_size_number(long int num, int size)
 		return (num);
 	else if (size == S_SHORT)
 		return ((short)num);
-
 	return ((int)num);
 }
 
